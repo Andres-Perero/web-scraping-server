@@ -1,0 +1,250 @@
+[
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=accion",
+    "text": "Acción"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=aventura",
+    "text": "Aventura"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=comedia",
+    "text": "Comedia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=drama",
+    "text": "Drama"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=recuentos-de-la-vida",
+    "text": "Recuentos de la vida"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=ecchi",
+    "text": "Ecchi"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=fantasia",
+    "text": "Fantasia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=magia",
+    "text": "Magia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=sobrenatural",
+    "text": "Sobrenatural"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=horror",
+    "text": "Horror"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=misterio",
+    "text": "Misterio"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=psicologico",
+    "text": "Psicológico"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=romance",
+    "text": "Romance"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=ciencia-ficcion",
+    "text": "Ciencia Ficción"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=thriller",
+    "text": "Thriller"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=deporte",
+    "text": "Deporte"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=girls-love",
+    "text": "Girls Love"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=boys-love",
+    "text": "Boys Love"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=harem",
+    "text": "Harem"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=mecha",
+    "text": "Mecha"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=supervivencia",
+    "text": "Supervivencia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=reencarnacion",
+    "text": "Reencarnación"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=gore",
+    "text": "Gore"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=apocaliptico",
+    "text": "Apocalíptico"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=tragedia",
+    "text": "Tragedia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=vida-escolar",
+    "text": "Vida Escolar"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=historia",
+    "text": "Historia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=militar",
+    "text": "Militar"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=policiaco",
+    "text": "Policiaco"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=crimen",
+    "text": "Crimen"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=superpoderes",
+    "text": "Superpoderes"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=vampiros",
+    "text": "Vampiros"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=artes-marciales",
+    "text": "Artes Marciales"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=samurai",
+    "text": "Samurái"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=genero-bender",
+    "text": "Género Bender"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=realidad-virtual",
+    "text": "Realidad Virtual"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=ciberpunk",
+    "text": "Ciberpunk"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=musica",
+    "text": "Musica"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=parodia",
+    "text": "Parodia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=animacion",
+    "text": "Animación"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=demonios",
+    "text": "Demonios"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=familia",
+    "text": "Familia"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=extranjero",
+    "text": "Extranjero"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=ninos",
+    "text": "Niños"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=realidad",
+    "text": "Realidad"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=telenovela",
+    "text": "Telenovela"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=guerra",
+    "text": "Guerra"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=oeste",
+    "text": "Oeste"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Ahegao",
+    "text": "Ahegao"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Anal",
+    "text": "Anal"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Big%20Ass",
+    "text": "Big Ass"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Bondage",
+    "text": "Bondage"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Chantaje",
+    "text": "Chantaje"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Colegiala",
+    "text": "Colegiala"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Incesto",
+    "text": "Incesto"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Juguetes%20Sexuales",
+    "text": "Juguetes Sexuales"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Nympho",
+    "text": "Nympho"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Netorare",
+    "text": "Netorare"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=%20Cheating",
+    "text": "Cheating"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=schoogirl%20uniform",
+    "text": "schoogirl uniform"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=rape",
+    "text": "rape"
+  },
+  {
+    "value": "https://www.manhwas.net/biblioteca?genero=Lolicon",
+    "text": "Lolicon"
+  }
+]
