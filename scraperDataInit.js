@@ -5,7 +5,13 @@ const scrapeData = async () => {
   try {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto("https://manhwas.net/esp");
+    // Aumentar el tiempo de espera a 60 segundos (60000 ms)
+    await page.goto("https://manhwas.net/esp", {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+
+    //await page.goto("https://manhwas.net/esp");
     await page.waitForSelector("body");
 
     // Extraer los datos de las secciones y los artículos de la página
@@ -20,7 +26,8 @@ const scrapeData = async () => {
         const articles = Array.from(section.querySelectorAll("ul li article"));
         const articlesData = articles.map((article) => {
           // Extraer los datos de cada artículo individual
-          const link = article.querySelector("a[href]");
+          const linkChapter = article.querySelector("a:nth-child(1)");
+          const linkSerie = article.querySelector("a:nth-child(2)");
           const img = article.querySelector("img[src]");
           const title = article.querySelector(".title");
           const timestamp = article.querySelector(".text-secondary");
@@ -29,7 +36,8 @@ const scrapeData = async () => {
           const typeElement = article.querySelector(".anime-badge");
 
           return {
-            link: link ? link.href : "",
+            linkChapter: linkChapter ? linkChapter.href : "",
+            linkSerie: linkSerie ? linkSerie.href : "",
             img: img ? img.src : "",
             title: title ? title.textContent.trim() : "",
             timestamp: timestamp ? timestamp.textContent.trim() : "",

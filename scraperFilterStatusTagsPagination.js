@@ -4,7 +4,8 @@ const puppeteer = require("puppeteer");
 const scraperFilterStatusTagsPagination = async () => {
   try {
     console.log("Actualizando datos de los filtros de etiquetas...");
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ timeout: 60000 }); // Aumenta el tiempo a 60 segundos
+
     const page = await browser.newPage();
     await page.goto("https://www.manhwas.net/biblioteca");
     await page.waitForSelector(".form-group"); // Espera hasta que el elemento .form-group esté disponible
@@ -40,11 +41,10 @@ const scraperFilterStatusTagsPagination = async () => {
           text: option.textContent.trim(),
         }));
     });
+
     await page.waitForSelector(".pagination"); // Espera hasta que el elemento .pagination esté disponible
     const paginationElement = await page.$(".pagination"); // Selecciona el elemento de paginación
-
     const linkElements = await paginationElement.$$("a"); // Selecciona todos los elementos <a> dentro de .pagination
-
     let highestPageLink = { href: "", value: 0 };
 
     for (const link of linkElements) {

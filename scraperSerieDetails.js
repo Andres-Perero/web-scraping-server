@@ -2,9 +2,13 @@ const puppeteer = require("puppeteer");
 
 const scraperSerieDetails = async (link) => {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ timeout: 60000 }); // Aumenta el tiempo a 60 segundos
+
+    //const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto(link);
+    // Aumentar el tiempo de espera a 60 segundos (60000 ms)
+    await page.goto(link, { waitUntil: "domcontentloaded", timeout: 60000 });
+
     await page.waitForSelector(".title");
 
     const seriesDetails = await page.evaluate(() => {

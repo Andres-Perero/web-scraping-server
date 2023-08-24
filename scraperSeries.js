@@ -1,11 +1,15 @@
 const puppeteer = require("puppeteer");
 
 const scraperSeries = async (pageNumber) => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ timeout: 60000 }); // Aumenta el tiempo a 60 segundos
+
   const page = await browser.newPage();
 
   const url = `https://www.manhwas.net/biblioteca?page=${pageNumber}`;
-  await page.goto(url);
+  // Aumentar el tiempo de espera a 60 segundos (60000 ms)
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
+
+  //await page.goto(url);
   await page.waitForSelector(".anime"); // Esperar a que los elementos estén disponibles
 
   const items = await page.evaluate(() => {
