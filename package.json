@@ -1,10 +1,11 @@
 {
-  "name": "server-js",
+  "name": "web-scraping-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build"
+    "start": "node server.js",
+    "build": "echo 'Nothing to build'"
   },
   "author": "",
   "license": "ISC",

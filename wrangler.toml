@@ -1,0 +1,12 @@
+
+name = "web-scraping-server"  # Cambia esto por el nombre de tu proyecto
+type = "webpack"
+account_id = "6761dd2e2d7301c121a40a1e9a5b5d24"  # Cambia esto por tu ID de cuenta de Cloudflare
+workers_dev = false
+
+[site]
+bucket = "./public"  # Cambia esto al directorio donde está tu código
+
+[build]
+command = "npm run build"  # Cambia esto si usas un comando diferente para construir
+output = "dist"  # Cambia esto al directorio de salida después de la construcción
